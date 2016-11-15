@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/CalculatorController.php"
+    type:     annotation
+    prefix: /calculadora
+
+
+

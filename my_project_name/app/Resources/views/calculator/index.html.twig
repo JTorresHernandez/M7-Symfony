@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Calculadora V2.0.3 {% endblock %} </title>
+</head>
+<body>
+{% block body %}
+    <ul>
+        <li><a href=http://localhost:8000/calculadora/>Inicio</a> </li>
+        <li><a href="{{ path('src_app_controller_calculator_sum') }}">Sumatorio personal de Don Torres</a> </li>
+        <li><a href="{{ path('app_calculator_rest') }}">Restador personal de Don Torres</a> </li>
+        <li><a href="{{ path('src_app_controller_calculator_multi') }}">Multiplicador personal de Don Torres</a> </li>
+
+    </ul>
+{% endblock %}
+</body>
+</html>
